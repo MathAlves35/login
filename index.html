@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*definições de fonte principal*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg,white,forestgreen);
+        }
+        /*local onde esta as informações do formulario*/
+        div{
+            background-color: rgb(0,0,0,0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color:white;
+        }
+        /*definições do icones "usuario" e "senha"*/
+        input{
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 15px;
+            border: none;
+        }
+        /*definições do botão "Enviar"*/
+        button{
+            background-color: red;
+            border-radius: 10px;
+            padding: 15px;
+            border: none;
+            width: 100%;
+            color: white;
+        }
+        button:hover{
+            background-color: green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="tela-login">
+        <h1>Login</h1>
+        <input type="text" placeholder="Usuário">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Enviar</button>
+    </div>
+</body>
+</html>
